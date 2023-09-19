@@ -2,10 +2,10 @@ from azure.cognitiveservices.vision.customvision.prediction import CustomVisionP
 from msrest.authentication import ApiKeyCredentials
 import os, time, uuid
 
-prediction_key = "a8242ea53f7148b884029cd8f516cc14"
-ENDPOINT = "https://southcentralus.api.cognitive.microsoft.com/"
-project_id = "d1c48a03-d759-45d5-a436-0c4905752990"
-publish_iteration_name = "Cubrebocas"
+prediction_key = "....."
+ENDPOINT = "....."
+project_id = "....."
+publish_iteration_name = "....."
 
 prediction_credentials = ApiKeyCredentials(in_headers={"Prediction-key": prediction_key})
 predictor = CustomVisionPredictionClient(ENDPOINT, prediction_credentials)
